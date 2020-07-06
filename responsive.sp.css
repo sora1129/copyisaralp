@@ -1,0 +1,911 @@
+@media all and (max-width: 768px) {
+
+  /* 全体 */
+  .container {
+    max-width: 768px;
+    margin: 0 ;
+  }
+  
+  .responsive-sp {
+    display: inline;
+  }
+
+  .container {
+    max-width: 768px;
+  }
+  
+  .responsive-tb,.responsive-br {
+    display: none;
+  }
+  
+  /* ここからheader */
+  /* header全体 */
+  header {
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .header-wrap {
+    display: inline-block;
+    padding: 0;
+  }
+  
+  /* タイトル、ロゴ */
+  .header-left {
+    padding: 5px 0 5px 10px;
+  }
+  
+  .header-left-reverse {
+    flex-direction: column-reverse;
+  }
+  
+  .header-title {
+    padding-top: 0;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  .header-logo {
+    margin: 0;
+  }
+  
+  .header-logo img {  
+    width: 90px;
+  }
+  
+  .header-title p {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  
+  /* 資料請求フォームボタン */
+  #header-form-sp {
+    background-color: #DA6B64;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 12px;
+    width: 75px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  #header-form-sp a {
+    font-size: 12px;
+  }
+  
+  #header-form-sp img {
+    width: 20px;
+  }
+  
+  .header-right {
+    display: none;
+  }
+  
+  /* ここからtop */
+  /* top全体 */
+  .top {
+    height: 500px;
+    margin-top: 50px;
+    padding-top: 110px;
+    background-image: url(img/mainsp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* テキスト全体 */
+  .top-wrap {
+    padding: 0;
+  }
+  
+  /* プログラミングで... */
+  .cover-title {
+    padding-bottom: 20px;
+  }
+  
+  .cover-title p {
+    font-size: 24px;
+  }
+  
+  .text1 {
+    padding-bottom: 0px;
+  }
+  
+  /* iSaraロゴ */
+  .top-logo img {
+    width: 310px;
+  }
+  
+  /* バンコクのノマド... */
+  .top-title h1 {
+    font-size: 16px;
+  }
+  
+  /* ここからinfo */
+  /* info全体 */
+  .info {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  /* タイトル */
+  .info-text {
+    line-height: 22px;
+  }
+
+  /* ※受講料金は */
+  .price {
+    font-size: 90%;
+    font-weight: 600;
+  }
+  
+  /* テキスト全体 */
+  .info-texts {
+    padding-top: 15px;
+  }
+  
+  /* お問合せボタン */
+  .btn-form {
+    width: calc(100% - 20%);
+    letter-spacing: 0;
+  }
+  
+  /* 〇期生 締め切り全体 */
+  .when {
+    line-height: 1.5;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+  
+  /* 第6期生 */
+  .student6 {
+    padding-bottom: 20px;
+  }
+  
+  /* 第7期生 */
+  .student7 {
+    padding-bottom: 20px;
+  }
+  
+  /* mainここから */
+  /* main全体 */
+  .main {
+    padding-top: 30px;
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+  }
+  
+  /* エンジニアとして... */
+  .main-title br {
+    display: inline;
+  }
+  
+  .main-title {
+    width: calc(100% - 5%);
+    letter-spacing: 0;
+  }
+  
+  .main-title h2 {
+    font-size: 24px;
+  }
+  
+  .main-title::before,.main-title::after {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* タイトル以下テキスト全体 */
+  .main-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    padding-bottom: 50px;
+  }
+  
+  /* ここからabout */
+  /* aboutロゴ */
+  .about-logo p {
+    font-size: 12px;
+    padding: 20px 5px;
+    border-radius: 50px;
+  }
+  
+  /* about全体 */
+  .about {
+    height: 550px;
+    padding-bottom: 0;
+  }
+  
+  .about-wrap {
+    padding-top: 0;
+  }
+
+  /* ノマドエンジニア育成講座 */
+  .about-title {
+    width: calc(100% - 5%);
+  }
+  
+  .about-title h2 {
+    font-size: 24px;
+  }
+  
+  .about-title::before,.about-title::after {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* 稼ぐことのフォーカスした... */
+  .about-text {
+    padding-top: 10px;
+  }
+  
+  .about-text p {
+    font-size: 16px;
+  }
+  
+  /* 5つのスキル全体 */
+  .skill-wrap {
+    width: calc(100% - 10%);
+    height: 200px;
+  }
+  
+  /* スキルタイトル */
+  .skill-title {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  /* 各スキル */
+  .skill-text {
+    font-size: 10px;
+  }
+  
+  .skill-items img {
+    height: 30px;
+  }
+  
+  .skills {
+    width: calc(100% - 15%);
+    padding-top: 20px;
+  }
+  
+  .hand {
+    margin-top: 0;
+  }
+  
+  .star {
+    margin-top: 0;
+  }
+  
+  .human {
+    margin-top: 0;
+  }
+  
+  /* ここからstep */
+  /* step全体 */
+  .step {
+    background-image: url(img/aboutsecondbgsp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .step-text-wrap {
+    padding-top: 0;
+  }
+  
+  /* タイトル */
+  .step-title {
+    font-size: 24px;
+  }
+  
+  /* 基礎的なプログラミングスキル... */
+  .step-title-text {
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 21px;
+  }
+  
+  /* stepボックス */
+  .step-box {
+    padding: 15px 40px;
+  }
+  
+  .step-no {
+    padding: 0 50px;
+    margin-bottom: 10px;
+  }
+  
+  .step-no-text-ban {
+    padding-bottom: 5px;
+    letter-spacing: 0;
+  }
+  
+  .step-no-text-learn {
+    width: 180px;
+  }
+  
+  /* ここからneed */
+  /* need全体 */
+  .need-texts {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 15px 0;
+  }
+  
+  /* ここからlearning */
+  /* learning全体 */
+  .learning {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  
+  /* iSaraで学べること */
+  .learning-title {
+    padding-top: 30px;
+  }
+  
+  .learning-title h2{
+    font-size: 24px;
+  }
+  
+  /* iSaraの学習では... */
+  .learning-text {
+    padding-bottom: 30px;
+  }
+  
+  /* img */
+  .learning-items img {
+    width: 21%;
+  }
+  
+  /* これを教えるのが... */
+  .learning-item-text {
+    padding-top: 25px;
+  }
+  
+  /* ここからmerit */
+  /* merit全体 */
+  .merit {
+    height: 100%;
+  }
+  
+  .merit-wrap {
+    padding: 40px 0;
+  }
+  
+  /* 他のプログラミングスクールと... */
+  .merit-section-title {
+    font-size: 16px;
+  }
+  
+  /* タイトル */
+  .merit-title {
+    width: calc(100% - 5%);
+  }
+  
+  .merit-title {
+    font-size: 24px;
+  }
+  
+  .merit-title::before,.merit-title::after {
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+  /* items */
+  .merit-items {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  
+  .merit-item {
+    margin: 0;
+    width: auto;
+  }
+  
+  .merit-item img {
+    display: block;
+    height: 120px;
+  }
+  
+  .merit-item-title {
+    padding-bottom: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .merit-item-text {
+    padding: 10px 0 20px;
+    width: 78%;
+    margin-left: 10%;
+  }
+  
+  /* サポートボックス全体*/
+  .merit-plus {
+    width: calc(100% - 19%);
+    padding: 10px 10px 20px;
+    margin-top: 20px;
+    border: 1px solid #ebb94d;
+  }
+  
+  /* さらに！帰国後も... */
+  .merit-plus-title {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  
+  /* リモートワーカーのチームで... */
+  .merit-plus-sectiontitle {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  /* iSaraは講座が終わって終了では... */
+  .merit-plus-text {
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: #333333;
+  }
+  
+  .responsive-br {
+    display: none;
+  }
+  
+  /* 事前課題ができない人は */
+  .note {
+    padding-top: 20px;
+    width: 85%;
+  }
+  
+  /* ここからmember */
+  /* member全体 */
+  .member-wrap {
+    height: 1560px;
+    background-image: url(img/teacherbgsp.jpg);
+    padding-bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  /* 実際にフリーランスとして... */
+  .member-section-title {
+   width: 38%;
+  }
+  
+  /* フリーランス講師 枠内 */
+  .teacher-items {
+    width: calc(100% - 1%);
+    padding: 0 40px;
+  }
+  
+  .teacher-item {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .teacher-box {
+    padding: 40px 10px 10px 10px;
+    height: auto;
+    margin: 0;
+  }
+  
+  .teacher-box p {
+    font-size: 14px;
+  }
+  
+  .teacher-about {
+    margin: 0;
+    width: 100%;
+  }
+  
+  /* 講師、エンジニアの写真 */
+  .teacher-item img {
+    width: 120px;
+  }
+  
+  /* ここからqa */
+  /* qa全体 */
+  .qa-wrap {
+    margin-top: 0;
+    height: 230px;
+    padding-top: 20px;
+  }
+  
+  /* タイトル */
+  .qa-title {
+    width: calc(100% - 10%);
+    padding: 10px 40px;
+    font-size: 14px;
+  }
+  
+  .qa-title::before,.qa-title::after {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* 三角矢印 */
+  .qa-triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #EBB94D;
+    margin-top: 10px;
+  }
+  
+  /* ここからanswer */
+  /* answer全体 */
+  .answer-wrap {
+    height: auto;
+    padding-top: 30px;
+  }
+  
+  /* 実際に... */
+  .answer-text {
+    width: 42%;
+  }
+  
+  /* ceo写真、メッセージ1つずつ */
+  .ceo-item {
+    padding-bottom: 40px;
+  }
+  
+  /* ceoの写真 */
+  .ceo-item img {
+    width: 350px;
+  }
+  
+  .ceo-icon {
+    margin-left: 20px;
+    margin-right: 0;
+  }
+  
+  /* ceoメッセージ */
+  .ceo-message-text {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    position: relative;
+    top: -60px;
+  }
+  
+  /* ここからcontent */
+  /* 全体 */
+  .content {
+    height: 1030px;
+    width: 100%;
+    background-image: url(img/classbgsp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+  }
+  
+  /* 表全体 */
+  .tables {
+    width: 630px;
+    clear: left;
+    position: absolute;
+    left: 9%;
+  }
+  
+  .table-left {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  .table-right {
+    clear: right;
+    width: 100%;
+  }
+  
+  /* ここからsuport */
+  .suport {
+    height: 90px;
+    padding-top: 20px;
+  }
+  
+  /* ここからflow */
+  /* flow全体 */
+  .flow-box,.flow-icons,.flow-line {
+    display: none;
+  }
+  
+  .flow-wrap {
+    height: 100%;
+  }
+  
+  .flowbox-sp-wrap {
+    letter-spacing: 0;
+    display: block;
+    padding: 30px 55px 55px 50px;
+  }
+  
+  /* タイトル */
+  .flow-title {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+  
+  /* flowbox枠内 */
+  .flowbox-sp {
+    background-color: #FEF5E0;
+    text-align: left;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  
+  /* 枠内タイトル */
+  .accordion-container img {
+    width: 50px;
+    padding-right: 10px;
+  }
+  
+  .accordion-container,.accordion-title {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .accordion-container {
+    padding: 10px 15px;
+  }
+  
+  .accordion-title:active {
+    text-decoration: underline;
+  }
+  
+  .accordion-title:after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-top: solid 4.5px #333333;
+    border-right: solid 4.5px #333333;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  
+  .accordion-title.open:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 45%;
+  }
+  
+  /* 説明文 */
+  .accordion-content {
+    padding: 15px;
+  }
+  
+  .text {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  
+  .texts {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  /* アコーディオン時の説明文 */
+  .accordion-content {
+    display: none;
+    padding-bottom: 20px;
+  }
+  
+  /* ここからbankokudata */
+  /* bankokudata全体 */
+  .bankokudata {
+    padding: 50px 60px;
+    height: auto;
+    width: 100%;
+    background-image: url(img/bangkokbgsp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+  }
+  
+  .bankoku-texts {
+    margin: 0;
+  }
+  
+  /* なぜバンコクなのか */
+  .bankokudata-title {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+   } 
+  
+  /* ここからpresent */
+  /* present全体 */
+  .present {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  
+  /* iSara受講生への参加特典 */
+  .present-title {
+    padding-top: 40px;
+  }
+  
+  /* 講座費用... */
+  .present-text {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  
+  .present-texts {
+    padding-bottom: 30px;
+  }
+  
+  /* 特典リスト全体 */
+  .presentsp {
+    display: inline;
+  }
+  
+  .present-list {
+    display: none;
+  }
+  
+  .present-lists {
+    height: 300px;
+    width: 80%;
+    padding: 20px 0 0 70px;
+    margin-top: 0;
+  }
+  
+  /* 特典リスト中身 */
+  .presentspbox {
+    float: left;
+    padding-top: 15px;
+    width: 88%;
+  }
+  
+  .presentsp-left {
+    float: left;
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: #F7C23C;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 5px;
+  }
+  
+  .presentsp-right {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 15px;
+    margin-left: 110px;
+  }
+  
+  .presentsp-text {
+    text-align: left;
+  }
+  
+  /* ここからtarget */
+  /* target全体 */
+  .target {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-image: url(img/specialdetailsp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* iSaraはボランティアではありません */
+  .target-section-title {
+    padding-top: 0;
+  }
+  
+  /* ここまでみると、... */
+  .target-text-top {
+    line-height: 22px;
+  }
+  
+  /* 月10万円稼げる... */
+  .target-title {
+    width: 88%;
+    padding: 15px 60px;
+  }
+  
+  .target-title::before,.target-title::after {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* 最大の価値が... */
+  .target-text-bottom {
+    line-height: 22px;
+  }
+  
+  /* ここからmessage */
+  /* message全体 */
+  .message {
+    height: auto;
+  }
+  
+  /* 創業者からのメッセージ */
+  .message-title {
+    padding: 40px 0;
+  }
+  
+  /* 「一生もののスキル」を... */
+  .message-section-title {
+    padding-bottom: 0;
+  }
+  
+  /* タイトル、サブタイトル以外全体 */
+  .message-main {
+    padding: 40px;
+  }
+  
+  /* 創業者の画像 */
+  .message-left img{
+    width: 100%;
+  }
+  
+  .message-left {
+    clear: both;
+    padding-bottom: 35px;
+  }
+  
+  /* messageの内容 */
+  .message-right {
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  
+  /* ここからcontactform */
+  /* form全体 */
+  input {
+    width: 80%;
+  }
+  
+  textarea {
+    width: 80%;
+  }
+  
+  /* 送信ボタン */
+  button {
+    width: 80%;
+  }
+  
+  /* ここからpage-top */
+  #page-top {
+    padding: 10px 15px;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+  }
+  
+  
+  }
